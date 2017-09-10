@@ -1,6 +1,5 @@
 ---
 title: "GitHub Pages and Hover"
-categories: Articles
 ---
 
 One of the tasks for migrating from Blogger to GitHub Pages was to reconfigure the DNS

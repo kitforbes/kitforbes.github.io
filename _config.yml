@@ -1,35 +1,60 @@
 # Site settings
-title: Christopher Forbes
-description: >
-  To come...
-baseurl: ''
-url: https://kitforbes.github.io
-repository: kitforbes/kitforbes.github.io
-permalink: /blog/:year/:month/:title
-timezone: GB
-google_analytics_key: UA-50156284-3
-rss: feed.xml
-owner: chris_forbes
-defaults:
-  - scope:
-      path: ''
-      type: posts
-    values:
-      layout: post
-  - scope:
-      path: _pages
-      type: pages
-    values:
-      layout: page
-      navigation: true
+owner                   : chris_forbes
+title                   : Christopher Forbes
+description             : To come...
+locale                  : en_GB
+timezone                : GB
+
+repository              : kitforbes/kitforbes.github.io
+url                     : https://kitforbes.github.io
+baseurl                 : ''
+
+google_analytics_key    : UA-50156284-3
+rss                     : feed.xml
 
 # Build settings
-markdown: kramdown
+permalink               : /:categories/:year/:month/:title
+lsi                     : true
+future                  : false
+show_drafts             : false
+encoding                : utf-8
+markdown                : kramdown
+kramdown:
+  toc_levels            : 1..3
+  input                 : GFM
+  hard_wrap             : false
+  auto_ids              : true
+  entity_output         : as_char
+  smart_quotes          : lsquo,rsquo,ldquo,rdquo
+  enable_coderay        : false
+highlighter             : rouge
+keep_files:
+  - .git
+include:
+  - _pages
 exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
   - site.bat
   - vendor
-include:
-  - _pages
+# Front matter defaults
+defaults:
+  # Standard pages
+  - scope:
+      path              : _pages
+      type              : pages
+    values:
+      layout            : page
+      navigation        : true
+      comments          : false
+
+  # Blog posts
+  - scope:
+      path              : _posts/articles
+      type              : posts
+    values:
+      layout            : post
+      navigation        : false
+      comments          : false
+      categories        : articles

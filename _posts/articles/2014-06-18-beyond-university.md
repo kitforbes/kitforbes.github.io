@@ -1,6 +1,5 @@
 ---
 title: "Beyond University"
-categories: Articles
 ---
 
 ## Graduation

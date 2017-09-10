@@ -13,6 +13,7 @@
 @set ROOT=%~dp0
 @set CONFIG_DEFAULT=%ROOT%_config.yml
 @set CONFIG_LOCAL=%ROOT%_config_local.yml
+@set JEKYLL_ENV=
 
 @if '%1' EQU 'install' (
     rem add ruby check/installation
@@ -23,7 +24,7 @@
 
 @if '%1' EQU 'dev' (
     set JEKYLL_ENV=development
-    bundle exec jekyll serve --watch --drafts --future --profile --incremental --config "%CONFIG_DEFAULT%" "%CONFIG_LOCAL%"
+    bundle exec jekyll serve --watch --incremental --config "%CONFIG_DEFAULT%" "%CONFIG_LOCAL%"
     goto DONE
 )
 
