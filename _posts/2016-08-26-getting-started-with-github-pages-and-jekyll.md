@@ -1,8 +1,5 @@
 ---
-layout: post
 title:  "Getting Started with GitHub Pages and Jekyll"
-date:   2016-08-26 20:00:00 +0100
-categories: update
 ---
 My fairly inactive blog was previously hosted with Blogger,
 which wasn't exactly easy for a non-webby person to modify.

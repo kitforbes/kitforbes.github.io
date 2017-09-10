@@ -5,6 +5,8 @@ description: >
 baseurl: ''
 url: https://kitforbes.github.io
 repository: kitforbes/kitforbes.github.io
+permalink: /blog/:year/:month/:title
+timezone: GB
 google_analytics_key: UA-50156284-3
 social:
   email: kitforbes@gmail.com
@@ -14,6 +16,18 @@ social:
   linkedin:
   rss: feed.xml
   twitter: kitforbes
+defaults:
+  - scope:
+      path: ''
+      type: posts
+    values:
+      author: Chris Forbes
+      layout: post
+  - scope:
+      path: _pages
+      type: pages
+    values:
+      layout: page
 
 # Build settings
 markdown: kramdown
