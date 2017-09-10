@@ -6,6 +6,7 @@ baseurl: ''
 url: https://kitforbes.github.io
 #url: http://localhost:4000
 repository: kitforbes/kitforbes.github.io
+google_analytics_key: UA-50156284-3
 social:
   email: kitforbes@gmail.com
   facebook:
