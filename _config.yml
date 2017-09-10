@@ -8,20 +8,13 @@ repository: kitforbes/kitforbes.github.io
 permalink: /blog/:year/:month/:title
 timezone: GB
 google_analytics_key: UA-50156284-3
-social:
-  email: kitforbes@gmail.com
-  facebook:
-  github: kitforbes
-  google_plus:
-  linkedin:
-  rss: feed.xml
-  twitter: kitforbes
+rss: feed.xml
+owner: chris_forbes
 defaults:
   - scope:
       path: ''
       type: posts
     values:
-      author: Chris Forbes
       layout: post
   - scope:
       path: _pages

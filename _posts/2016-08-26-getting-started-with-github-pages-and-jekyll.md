@@ -1,5 +1,5 @@
 ---
-title:  "Getting Started with GitHub Pages and Jekyll"
+title: "Getting Started with GitHub Pages and Jekyll"
 ---
 My fairly inactive blog was previously hosted with Blogger,
 which wasn't exactly easy for a non-webby person to modify.

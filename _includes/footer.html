@@ -1,3 +1,4 @@
+{% assign author = site.data.authors[site.owner] %}
 <footer class="site-footer">
   <div class="wrapper">
     <h2 class="footer-heading">{{ site.title | escape }}</h2>
@@ -5,7 +6,7 @@
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
           <li>{{ site.title | escape }}</li>
-          <li><a href="mailto:{{ site.social.email }}">{{ site.social.email }}</a></li>
+          <li><a href="mailto:{{ author.social.email }}">{{ author.social.email }}</a></li>
         </ul>
       </div>
       <div class="footer-col footer-col-2">

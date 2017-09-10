@@ -16,14 +16,14 @@
 
 @if '%1' EQU 'install' (
     rem add ruby check/installation
-    gem install bundler
+    rem gem install bundler
     bundle install
     goto DONE
 )
 
 @if '%1' EQU 'dev' (
     set JEKYLL_ENV=development
-    bundle exec jekyll serve --watch --drafts --future --config "%CONFIG_DEFAULT%" "%CONFIG_LOCAL%"
+    bundle exec jekyll serve --watch --drafts --future --profile --incremental --config "%CONFIG_DEFAULT%" "%CONFIG_LOCAL%"
     goto DONE
 )
 
