@@ -35,4 +35,4 @@ For now, I need to get back to ignoring the crying child in front of me.
 [4]: http://www.oinkhogroast.co.uk/ "Oink"
 
 <!-- Images -->
-[over-north-america]: /images/over-north-america.jpg "Somewhere over North America"
+[over-north-america]: /assets/images/articles/over-north-america.jpg "Somewhere over North America"

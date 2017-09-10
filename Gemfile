@@ -1,8 +1,10 @@
-source "https://rubygems.org"
+source 'https://rubygems.org'
 ruby RUBY_VERSION
 
-# Plugins
+require 'json'
+require 'open-uri'
+versions = JSON.parse(open('https://pages.github.com/versions.json').read)
+
 group :jekyll_plugins do
-    gem "github-pages"
-    gem 'jekyll-admin'
+  gem 'github-pages', versions['github-pages']
 end

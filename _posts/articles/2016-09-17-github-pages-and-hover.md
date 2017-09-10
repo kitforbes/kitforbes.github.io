@@ -24,4 +24,4 @@ settings with my hosting provider, [Hover][1]. GitHub has written a fair amount 
 [2]: https://help.github.com/articles/using-a-custom-domain-with-github-pages/ "Using a Custom Domain with GitHub Pages"
 
 <!-- Images -->
-[hover-dns]: /images/hover-dns.png "Hover DNS dashboard after changes"
+[hover-dns]: /assets/images/articles/hover-dns.png "Hover DNS dashboard after changes"
