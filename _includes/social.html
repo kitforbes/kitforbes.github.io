@@ -1,30 +1,20 @@
 {% assign author = site.data.authors[site.owner] %}
 <ul class="social-media-list">
-  {% if author.social.facebook %}
-  <li>
+  {% if author.social.facebook %}<li>
     <a href="https://www.facebook.com/{{ author.social.facebook }}"><i class="fa fa-facebook"></i> Facebook</a>
-  </li>
-  {% endif %}
-  {% if author.social.github %}
-  <li>
+  </li>{% endif %}
+  {% if author.social.github %}<li>
     <a href="https://github.com/{{ author.social.github }}"><i class="fa fa-github"></i> GitHub</a>
-  </li>
-  {% endif %}
-  {% if author.social.google_plus %}
-  <li>
+  </li>{% endif %}
+  {% if author.social.google_plus %}<li>
     <a href="https://plus.google.com/{{ author.social.google_plus }}"><i class="fa fa-google-plus"></i> Google+</a>
-  </li>
-  {% endif %}
-  {% if author.social.linkedin %}
-  <li>
+  </li>{% endif %}
+  {% if author.social.linkedin %}<li>
     <a href="https://linkedin.com/in/{{ author.social.linkedin }}"><i class="fa fa-linkedin"></i> LinkedIn</a>
-  </li>
-  {% endif %}
-  {% if author.social.twitter %}
-  <li>
+  </li>{% endif %}
+  {% if author.social.twitter %}<li>
     <a href="https://twitter.com/{{ author.social.twitter }}"><i class="fa fa-twitter"></i> Twitter</a>
-  </li>
-  {% endif %}
+  </li>{% endif %}
   <li>
     <a href="{{ site.rss | prepend: site.baseurl | prepend: site.url }}"><i class="fa fa-rss"></i> RSS</a>
   </li>

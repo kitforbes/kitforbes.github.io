@@ -1,6 +1,6 @@
 # Site settings
 owner                   : chris_forbes
-title                   : Christopher Forbes
+title                   : Error-Driven Development
 description             : To come...
 locale                  : en_GB
 timezone                : GB
@@ -38,23 +38,45 @@ exclude:
   - README.md
   - site.bat
   - vendor
+
+# Collections
+collections:
+  reference:
+    output              : true
+    permalink           : /:collection/:categories/:title/
+
 # Front matter defaults
 defaults:
-  # Standard pages
-  - scope:
+  -
+    scope: # Standard pages
       path              : _pages
       type              : pages
     values:
       layout            : page
       navigation        : true
       comments          : false
-
-  # Blog posts
-  - scope:
+  -
+    scope: # Intermediate Reference pages
+      path              : _pages/reference
+      type              : pages
+    values:
+      layout            : reference-list
+      navigation        : false
+      comments          : false
+  -
+    scope: # Blog posts
       path              : _posts/articles
       type              : posts
     values:
       layout            : post
       navigation        : false
       comments          : false
-      categories        : articles
+      categories        : Articles
+  -
+    scope: # Reference collection
+      path              : ''
+      type              : reference
+    values:
+      layout            : page
+      navigation        : false
+      comments          : false
