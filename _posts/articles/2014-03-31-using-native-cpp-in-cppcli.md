@@ -6,18 +6,16 @@ Native C++ is based upon unmanaged code. To use native C++ code within the manag
 The following method is one possible approach.
 
 ### Native class
-
-{% highlight cpp %}
+```cpp
 class NativeClass
 {
 public:
     void nativeMethod();
 };
-{% endhighlight %}
+```
 
 ### Native Class Wrapper
-
-{% highlight cpp %}
+```cpp
 #include "NativeClass.h"
 
 public ref class NativeClassWrapper
@@ -52,11 +50,10 @@ public:
         _nativeClass->nativeMethod();
     }
 };
-{% endhighlight %}
+```
 
 ### Implementation of Native Class Wrapper
-
-{% highlight cpp %}
+```cpp
 #include "NativeClassWrapper.h"
 
 // Initialise class.
@@ -68,4 +65,4 @@ nativeClassWrapper->managedMethod();
 // Access the native class directly.
 NativeClass* nativeClass = nativeClassWrapper->getNativeClass();
 nativeClass->nativeMethod();
-{% endhighlight %}
+```

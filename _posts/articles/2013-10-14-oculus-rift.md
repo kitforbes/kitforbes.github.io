@@ -20,5 +20,6 @@ How developers decide to integrate the Rift into their software will be the deci
 The Rift is an impressive piece of kit that is likely the beginning of something amazing.
 I can't see it selling as more than a curiosity item, but it will open the door for future devices to improve what they have started.
 
+<!-- References -->
 [1]: http://www.igda.org/ "International Game Developers Association"
 [2]: https://www.oculus.com/ "Oculus Rift"

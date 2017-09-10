@@ -92,6 +92,7 @@ Learning about the various different areas of software development was a struggl
 I didn't get to do as much "proper" development as I would have liked, but at least my time at G2G3 gave
 me a good understanding of areas that I probably would not have learned about otherwise.
 
+<!-- References -->
 [1]:  http://g2g3.com/ "G2G3"
 [2]:  https://www.pluralsight.com/ "Pluralsight"
 [3]:  http://www.specflow.org/ "SpecFlow"

@@ -5,7 +5,7 @@ title: "Career Update"
 I haven't had much time to write anything down of late,
 but as I'm currently stuck in a flying metal tube for the next 10 hours, I thought it would be an ideal time to draft an update.
 
-{% include image-body.html url="/images/over-north-america.jpg" description="Somewhere over North America" %}
+![Somewhere over North America][over-north-america]
 
 In February, I was fortunate to reach the end of the job hunting phase of my career,
 after accepting the position of "Developer in Test" at [G2G3][1] in Scotland.
@@ -28,7 +28,11 @@ and my evenings learning about the many new technologies it requires.
 I'll go in to more detail on those topics at another time, however.
 For now, I need to get back to ignoring the crying child in front of me.
 
+<!-- References -->
 [1]: http://g2g3.com/ "G2G3"
 [2]: http://www.cloudsoft.io/ "Cloudsoft"
 [3]: https://www.docker.com/ "Docker"
 [4]: http://www.oinkhogroast.co.uk/ "Oink"
+
+<!-- Images -->
+[over-north-america]: /images/over-north-america.jpg "Somewhere over North America"
