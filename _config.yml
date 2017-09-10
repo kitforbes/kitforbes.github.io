@@ -21,6 +21,7 @@ defaults:
       type: pages
     values:
       layout: page
+      navigation: true
 
 # Build settings
 markdown: kramdown
