@@ -11,35 +11,28 @@
 @if '%1' EQU '--help' goto USAGE
 
 @set ROOT=%~dp0
-@set CONFIG_DEFAULT=%ROOT%_config.yml
-@set CONFIG_LOCAL=%ROOT%_config_local.yml
+@set CONFIG_DEFAULT=_config.yml
+@set CONFIG_LOCAL=_config_local.yml
 @set JEKYLL_ENV=
-
-@if '%1' EQU 'install' (
-    rem add ruby check/installation
-    rem gem install bundler
-    bundle install
-    goto DONE
-)
 
 @if '%1' EQU 'dev' (
     set JEKYLL_ENV=development
-    bundle exec jekyll serve --watch --incremental --config "%CONFIG_DEFAULT%" "%CONFIG_LOCAL%"
-    goto DONE
+    goto RUN
 )
 
 @if '%1' EQU 'prod' (
     set JEKYLL_ENV=production
-    bundle exec jekyll serve --watch --config "%CONFIG_DEFAULT%" "%CONFIG_LOCAL%"
-    goto DONE
+    goto RUN
 )
 
-@if '%1' EQU 'update' (
-    bundle update
-    goto DONE
-) else (
-    goto USAGE
-)
+@goto USAGE
+
+:RUN
+@docker run --rm --name=site --label=jekyll "--volume=%ROOT%:/srv/jekyll" ^
+    -it -p 127.0.0.1:4000:4000 jekyll/jekyll ^
+    jekyll serve --watch --incremental --force_polling ^
+    --config "%CONFIG_DEFAULT%" "%CONFIG_LOCAL%"
+@goto DONE
 
 :DONE
 @echo.
@@ -54,12 +47,8 @@
 :USAGE
 @echo.
 @echo Usage:
-@echo    %0 [install^|update^|dev^|prod]
+@echo    %0 [dev^|prod]
 @echo.
-@echo   Install:
-@echo     Installs required dependencies.
-@echo   Update:
-@echo     Gets the latest Gems.
 @echo   Dev:
 @echo     Serves the site at "localhost/4000" with development settings.
 @echo   Prod:
