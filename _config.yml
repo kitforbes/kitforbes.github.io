@@ -1,17 +1,19 @@
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 title: Christopher Forbes
-email: kitforbes@gmail.com
 description: >
   To come...
-baseurl: ""
+baseurl: ''
 url: https://kitforbes.github.io
 #url: http://localhost:4000
 repository: kitforbes/kitforbes.github.io
-github_username:  kitforbes
+social:
+  email: kitforbes@gmail.com
+  facebook:
+  github: kitforbes
+  google_plus:
+  linkedin:
+  rss: feed.xml
+  twitter: kitforbes
 
 # Build settings
 markdown: kramdown
