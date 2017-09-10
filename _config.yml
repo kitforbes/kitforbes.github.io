@@ -19,7 +19,7 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - vendor
   - site.bat
+  - vendor
 include:
   - _pages
