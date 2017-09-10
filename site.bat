@@ -14,9 +14,11 @@
 @set CONFIG_DEFAULT=_config.yml
 @set CONFIG_LOCAL=_config_local.yml
 @set JEKYLL_ENV=
+@set JEKYLL_ARGS=
 
 @if '%1' EQU 'dev' (
     set JEKYLL_ENV=development
+    set "JEKYLL_ARGS=--drafts --future --profile"
     goto RUN
 )
 
@@ -28,9 +30,10 @@
 @goto USAGE
 
 :RUN
+@rm -rf "%ROOT%_site"
 @docker run --rm --name=site --label=jekyll "--volume=%ROOT%:/srv/jekyll" ^
     -it -p 127.0.0.1:4000:4000 jekyll/jekyll ^
-    jekyll serve --watch --incremental --force_polling ^
+    jekyll serve --watch --incremental --force_polling %JEKYLL_ARGS% ^
     --config "%CONFIG_DEFAULT%" "%CONFIG_LOCAL%"
 @goto DONE
 
