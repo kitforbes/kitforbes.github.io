@@ -1,6 +1,8 @@
 ---
 title: "Getting Started with GitHub Pages and Jekyll"
+categories: Articles
 ---
+
 My fairly inactive blog was previously hosted with Blogger,
 which wasn't exactly easy for a non-webby person to modify.
 I've decided to start using GitHub Pages with Jekyll instead,
@@ -8,7 +10,7 @@ as it will be easier to manage with a Git client, and will be
 much easier for me to make incremental changes to the site as
 I get to grips with there approach.
 
-[GitHub Pages][ghpages] has just upgraded to [Jekyll 3.2][Jekyll-32]
+[GitHub Pages][1] has just upgraded to [Jekyll 3.2][2]
 with the option of simple themes. I'll start out with that,
 and move on to creating my own theme at some point in the future.
 
@@ -24,5 +26,5 @@ kind of personal wiki where I can keep a couple of handy snippets.
 Not entirely sure how I'd like to implement that, however,
 but we'll see how it goes!
 
-[ghpages]:   https://github.com/blog/2236-github-pages-now-runs-jekyll-3-2
-[jekyll-32]: https://jekyllrb.com/news/2016/07/26/jekyll-3-2-0-released/
+[1]: https://github.com/blog/2236-github-pages-now-runs-jekyll-3-2 "GitHub Pages now runs Jekyll 3.2"
+[2]: https://jekyllrb.com/news/2016/07/26/jekyll-3-2-0-released/ "Jekyll 3.2 Released"
