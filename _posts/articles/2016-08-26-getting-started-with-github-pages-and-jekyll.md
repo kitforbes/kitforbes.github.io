@@ -14,10 +14,12 @@ with the option of simple themes. I'll start out with that,
 and move on to creating my own theme at some point in the future.
 
 ## Migrating
+
 There aren't many posts on my previous blog that I feel are worth
 preserving, but I will move some of the posts over in the coming weeks.
 
 ## Going Forward
+
 As always, I'll try to make use of this. I also intend to make some
 kind of personal wiki where I can keep a couple of handy snippets.
 Not entirely sure how I'd like to implement that, however,

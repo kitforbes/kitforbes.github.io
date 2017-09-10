@@ -6,6 +6,7 @@ Native C++ is based upon unmanaged code. To use native C++ code within the manag
 The following method is one possible approach.
 
 ### Native class
+
 ```cpp
 class NativeClass
 {
@@ -15,6 +16,7 @@ public:
 ```
 
 ### Native Class Wrapper
+
 ```cpp
 #include "NativeClass.h"
 
@@ -53,6 +55,7 @@ public:
 ```
 
 ### Implementation of Native Class Wrapper
+
 ```cpp
 #include "NativeClassWrapper.h"
 

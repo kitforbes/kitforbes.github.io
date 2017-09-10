@@ -3,6 +3,7 @@ title: "Beyond University"
 ---
 
 ## Graduation
+
 With the onset of the recession all those years ago, I thought my best course of action to safely pass the worst of it,
 was to enrol at university. I came to my course with very little previous programming knowledge.
 The extent of my experience was from creating some exceptionally basic websites with HTML and a little amount of CSS.
@@ -18,6 +19,7 @@ Tomorrow, I receive my degree classification: Those two digits that determine th
 returning to the workforce.
 
 ## Applications
+
 Over the past few weeks I've been spreading my freshly updated CV across the internet like a carefully formatted virus.
 I already knew that jobs within the games industry were few and far between, especially for entry level and graduate roles.
 Finding a position that will, in some fashion, relate to the games industry could be a difficult task.
@@ -29,6 +31,7 @@ and the interviews are going well so far. Many of these roles depend on those tw
 If they aren't as good as I am hoping, it could make my search harder. University was merely a starting point, however.
 
 ## Projects
+
 I've been told that I should do at least one hour of programming a day to keep my skills sharp.
 One of my lecturers said that he found he accomplished more with the "one a day" routine than he had ever done before.
 With that in mind, regardless of how my job search goes, I'll be fleshing out my portfolio by cleaning up past projects and starting on new ones.
