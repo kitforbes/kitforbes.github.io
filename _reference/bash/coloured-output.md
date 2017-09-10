@@ -1,11 +1,11 @@
 ---
-title: "Colouring Output"
+title: "Coloured Output"
 categories: Bash
 ---
 
 ## Colours
 
-| Dark Colour  | Code |
+| Colour  | Code |
 | --- | :---: |
 | Black        | 0;30 |
 | Dark Gray    | 1;30 |
