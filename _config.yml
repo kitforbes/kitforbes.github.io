@@ -10,7 +10,7 @@ url                     : https://kitforbes.github.io
 baseurl                 : ''
 
 google_analytics_key    : UA-50156284-3
-rss                     : feed.xml
+rss                     : /feed.xml
 
 # Build settings
 permalink               : /:categories/:year/:month/:title

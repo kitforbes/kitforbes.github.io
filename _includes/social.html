@@ -25,4 +25,7 @@
     <a href="https://twitter.com/{{ author.social.twitter }}"><i class="fa fa-twitter"></i> Twitter</a>
   </li>
   {% endif %}
+  <li>
+    <a href="{{ site.rss | prepend: site.baseurl | prepend: site.url }}"><i class="fa fa-rss"></i> RSS</a>
+  </li>
 </ul>
