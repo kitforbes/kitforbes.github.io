@@ -156,7 +156,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages
   jekyll-admin
-  minima
 
 RUBY VERSION
    ruby 2.3.1p112

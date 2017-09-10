@@ -15,6 +15,11 @@ github_username:  kitforbes
 
 # Build settings
 markdown: kramdown
-theme: minima
-include: ['_pages']
-exclude: ['README.md', 'vendor', 'site.bat']
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - vendor
+  - site.bat
+include:
+  - _pages
