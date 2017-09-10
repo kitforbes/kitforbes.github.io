@@ -6,7 +6,7 @@ Something amazing.
 
 ### Tasks required to achieve functionality
 
-[ ] A task.
+- [ ] A task.
 
 ## Bug Template
 
