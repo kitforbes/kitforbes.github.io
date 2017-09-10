@@ -22,4 +22,4 @@ settings with my hosting provider, [Hover][1]. GitHub has written a fair amount 
 - Add the desired URL to the file
 
 [1]: https://www.hover.com/ "Hover.com"
-[2]: https://help.github.com/articles/using-a-custom-domain-with-github-pages/ "Using a Custome Domain with GitHub Pages"
+[2]: https://help.github.com/articles/using-a-custom-domain-with-github-pages/ "Using a Custom Domain with GitHub Pages"

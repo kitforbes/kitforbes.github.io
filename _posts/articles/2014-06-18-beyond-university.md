@@ -5,7 +5,7 @@ title: "Beyond University"
 ## Graduation
 
 With the onset of the recession all those years ago, I thought my best course of action to safely pass the worst of it,
-was to enroll at university. I came to my course with very little previous programming knowledge.
+was to enrol at university. I came to my course with very little previous programming knowledge.
 The extent of my experience was from creating some exceptionally basic websites with HTML and a little amount of CSS.
 
 It took some time to get the hang of it all. The initial classes were a slow, basic introductions.
