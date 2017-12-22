@@ -1,3 +1,4 @@
+.gitignore.d/
 _site
 .bundle
 .sass-cache
