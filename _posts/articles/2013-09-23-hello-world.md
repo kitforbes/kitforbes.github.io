@@ -1,5 +1,7 @@
 ---
 title: "Hello World"
+categories:
+  - articles
 ---
 
 As I am a programmer the standard introduction seemed appropriate.

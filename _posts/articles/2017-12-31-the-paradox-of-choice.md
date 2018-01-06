@@ -1,12 +1,14 @@
 ---
 title: "The Paradox of Choice"
+categories:
+  - articles
 ---
 
 Throughout the year I've jumped between many different personal projects without finishing any of them. There are a number of reasons why this has been the case.
 
 I have always been bad at focusing on a task when it is purely down to my own motivation. Additionally, having too many things to work on leaves me struggling to decide which project to work on - similar to when you spend an evening looking through Netflix for something to watch rather than watching something!
 
-When I need to learn something new for work, I'll tend to jump on to that topic and may not return to the previous own for some time, if at all.
+When I need to learn something new for work, I'll tend to jump on to that topic and may not return to the previous one for some time, if at all.
 
 My intention is to make these projects public, as a bit of a portfolio, so I am often concerned about the presentation of my work or I'm not satisfied with the quality.
 

@@ -1,5 +1,7 @@
 ---
 title: "Getting Started with GitHub Pages and Jekyll"
+categories:
+  - articles
 ---
 
 My fairly inactive blog was previously hosted with Blogger,

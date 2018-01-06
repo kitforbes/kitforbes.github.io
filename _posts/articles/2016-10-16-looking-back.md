@@ -1,5 +1,7 @@
 ---
 title: "Looking Back"
+categories:
+  - articles
 ---
 
 Before I move on to writing about the new technologies I am working with in my new position,

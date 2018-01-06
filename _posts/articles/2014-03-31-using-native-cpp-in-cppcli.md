@@ -1,5 +1,7 @@
 ---
 title: "Using Native C++ in C++/CLI"
+categories:
+  - articles
 ---
 
 Native C++ is based upon unmanaged code. To use native C++ code within the managed C++/CLI framework, a small modification is required.

@@ -1,5 +1,0 @@
-{% if include.header %}<h2><a href="{{ include.category | slugify | prepend: site.baseurl }}">{{ include.category }}</a></h2>{% endif %}
-{% assign references = site.reference | where: "categories", include.category %}
-<ul>{% for reference in references %}
-<li><a href="{{ reference.url | prepend: site.baseurl }}">{{ reference.title | escape }}</a></li>
-{% endfor %}</ul>

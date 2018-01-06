@@ -1,5 +1,7 @@
 ---
 title: "Career Update"
+categories:
+  - articles
 ---
 
 I haven't had much time to write anything down of late,

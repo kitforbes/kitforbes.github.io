@@ -1,5 +1,4 @@
 .gitignore.d/
-_site
-.bundle
-.sass-cache
+vendor/
+_site/
 .jekyll-metadata

@@ -1,5 +1,7 @@
 ---
 title: "Getting Started with GoCD"
+categories:
+  - articles
 ---
 
 [GoCD][1] from ThoughtWorks, is an open source build server which puts more

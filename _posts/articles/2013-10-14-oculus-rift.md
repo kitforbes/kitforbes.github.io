@@ -1,5 +1,7 @@
 ---
 title: "Hands on with the Oculus Rift"
+categories:
+  - articles
 ---
 
 The other evening, at the [IGDA][1] (International Game Developers Association) meeting in the TechCube,
