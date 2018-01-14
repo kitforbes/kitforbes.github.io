@@ -1,6 +1,7 @@
 ---
 title: "Argument Expansion"
-categories: Batch
+excerpt: "Expand arguments in Batch files to get file names, paths, extensions, etc."
+child_collection: batch
 ---
 
 Replace `n` with argument number (`0`, `1`, etc).

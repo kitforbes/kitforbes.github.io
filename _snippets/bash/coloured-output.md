@@ -1,11 +1,12 @@
 ---
 title: "Coloured Output"
-categories: Bash
+excerpt: "Add some colour to the Linux terminal."
+child_collection: bash
 ---
 
 ## Colours
 
-| Colour  | Code |
+| Colour | Code |
 | --- | :---: |
 | Black        | 0;30 |
 | Dark Gray    | 1;30 |

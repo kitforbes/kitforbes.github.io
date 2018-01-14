@@ -1,9 +1,8 @@
 ---
 title: "uTorrent Filebot Integration"
-categories: Other
+excerpt: "Why move media files manually when you can automate the process with Filebot?"
+child_collection: other
 ---
-
-Disable the annoying pushers in uTorrent with the following steps.
 
 Go to **Options** > **Preferences** > **Advanced**, **Run Program** and
 enter the below into **Run this program when a torrent finishes**.

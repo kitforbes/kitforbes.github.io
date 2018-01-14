@@ -1,5 +1,6 @@
 ---
 title: "Career Update"
+excerpt: "Airplanes are an ideal place for writing long overdue blog posts."
 categories:
   - articles
 ---

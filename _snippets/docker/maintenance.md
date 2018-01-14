@@ -1,6 +1,7 @@
 ---
 title: "Maintenance"
-categories: Docker
+excerpt: "A selection of commands for cleaning up a Docker host."
+child_collection: docker
 ---
 
 **Stop all containers**

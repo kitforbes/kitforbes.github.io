@@ -1,5 +1,6 @@
 ---
 title: "Create a C++ Windows Form in Visual Studio 2012"
+excerpt: "The following is a simple step-by-step guide to creating a C++ Windows Form in Visual Studio 2012."
 categories:
   - articles
 ---

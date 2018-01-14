@@ -1,6 +1,7 @@
 ---
 title: "Create Video from Gource"
-categories: Other
+excerpt: "Turn your Git commit history into a video."
+child_collection: other
 ---
 
 Gource can generate output streams which can be converted into video files.

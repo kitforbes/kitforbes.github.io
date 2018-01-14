@@ -1,6 +1,7 @@
 ---
 title: "SSH Copy"
-categories: Bash
+excerpt: "Securely copy files over SSH."
+child_collection: bash
 ---
 
 ```bash

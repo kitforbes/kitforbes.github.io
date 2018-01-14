@@ -1,6 +1,7 @@
 ---
 title: "Safely Re-Create a Directory"
-categories: PowerShell
+excerpt: "Safely delete a directory before re-creating it within PowerShell."
+child_collection: powershell
 ---
 
 If the directory exists, remove it before re-creating it.

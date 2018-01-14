@@ -1,5 +1,6 @@
 ---
 title: "Looking Back"
+excerpt: "Before I move on to writing about the new technologies I am working with in my new position, I thought it would be good to look back over my time at my first technology job."
 categories:
   - articles
 ---

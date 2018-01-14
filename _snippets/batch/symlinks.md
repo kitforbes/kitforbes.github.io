@@ -1,6 +1,7 @@
 ---
 title: "Symlinks"
-categories: Batch
+excerpt: "All the ways of linking files and directories on Windows."
+child_collection: batch
 ---
 
 **Soft-Link to File**

@@ -1,5 +1,6 @@
 ---
 title: "The Paradox of Choice"
+excerpt: "Making decisions is the hardest thing to do at times."
 categories:
   - articles
 ---

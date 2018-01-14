@@ -1,5 +1,6 @@
 ---
 title: "Beyond University"
+excerpt: "A quick recap of my graduation and looking forward at the months to come."
 categories:
   - articles
 ---

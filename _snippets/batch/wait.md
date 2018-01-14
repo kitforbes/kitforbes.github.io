@@ -1,6 +1,7 @@
 ---
 title: "Command Line Wait"
-categories: Batch
+excerpt: "A simple method to execute a timed wait from a Batch file."
+child_collection: batch
 ---
 
 There is currently no built in method for waiting other than `sleep`.

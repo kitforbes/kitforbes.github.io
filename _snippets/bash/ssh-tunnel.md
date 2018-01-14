@@ -1,6 +1,7 @@
 ---
 title: "SSH Tunnel"
-categories: Bash
+excerpt: "Create a tunnel between the port on a remote machine and the port on your local machine with SSH."
+child_collection: bash
 ---
 
 A nice simple way to view a web UI on something like Consul is with an SSH Tunnel.

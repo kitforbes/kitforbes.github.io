@@ -1,6 +1,7 @@
 ---
 title: "Disable Adverts in uTorrent"
-categories: Other
+excerpt: "Adverts are tedious. You can remove them from uTorrent."
+child_collection: other
 ---
 
 Disable the annoying pushers in uTorrent with the following steps.

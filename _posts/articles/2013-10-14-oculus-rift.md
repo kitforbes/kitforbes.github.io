@@ -1,5 +1,6 @@
 ---
 title: "Hands on with the Oculus Rift"
+excerpt: "My first experience with the Oculus Rift VR headset with the IGDA in Edinburgh."
 categories:
   - articles
 ---

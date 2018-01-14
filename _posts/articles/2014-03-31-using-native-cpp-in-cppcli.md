@@ -1,5 +1,6 @@
 ---
 title: "Using Native C++ in C++/CLI"
+excerpt: "Working with unmanaged C++ in a managed setting with C++/CLI."
 categories:
   - articles
 ---

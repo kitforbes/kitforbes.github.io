@@ -1,5 +1,6 @@
 ---
 title: "GitHub Pages and Hover"
+excerpt: "Setting up Hover to work with a GitHub Pages blog with a few simple adjustments."
 categories:
   - articles
 ---

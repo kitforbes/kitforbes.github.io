@@ -1,5 +1,6 @@
 ---
 title: "Getting Started with GoCD"
+excerpt: "GoCD from ThoughtWorks, is an open source build server which puts more emphasis on the continuous delivery process than just continuous integration."
 categories:
   - articles
 ---

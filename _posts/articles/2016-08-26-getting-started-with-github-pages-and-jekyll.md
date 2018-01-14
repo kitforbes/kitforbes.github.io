@@ -1,5 +1,6 @@
 ---
 title: "Getting Started with GitHub Pages and Jekyll"
+excerpt: "Migrating a blog from Blogger to GitHub Pages."
 categories:
   - articles
 ---

@@ -1,5 +1,6 @@
 ---
 title: "Getting Started with Vagrant and Ansible"
+excerpt: "Using Vagrant to create an Ansible control node on Windows."
 categories:
   - articles
 ---

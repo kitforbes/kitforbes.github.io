@@ -1,7 +1,10 @@
 ---
 title: "Modify Hosts File"
-categories: Batch
+excerpt: "Add an entry to the Windows hosts file with a Batch file."
+child_collection: batch
 ---
+
+TODO: This needs to be made more rhobust.
 
 ```batch
 set DOMAIN=something.example.com

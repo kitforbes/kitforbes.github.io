@@ -25,7 +25,8 @@
 
 @if '%1' EQU 'logs' (
     docker logs blog
-    goto DONE
+    if ERRORLEVEL 0 goto DONE
+    goto FAILED
 )
 
 :DONE

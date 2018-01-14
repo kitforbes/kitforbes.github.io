@@ -1,11 +1,11 @@
 # Site Settings
-remote_theme             : 'mmistakes/minimal-mistakes'
+remote_theme             : mmistakes/minimal-mistakes
 minimal_mistakes_skin    : dark
 locale                   : en_GB
-title                    : 'Error Driven Development'
-title_separator          : '|'
+title                    : "Error Driven Development"
+title_separator          : "-"
 name                     : Christopher Forbes
-description              : To come...
+description              : ''
 url                      : https://kitforbes.github.io
 baseurl                  : ''
 repository               : kitforbes/kitforbes.github.io
@@ -77,7 +77,7 @@ analytics:
 author:
   name                   : 'Christopher Forbes'
   avatar                 : # '/assets/images/bio-photo.jpg'
-  bio                    : 'To come...'
+  bio                    : ''
   location               : 'Scotland'
   email                  :
   uri                    :

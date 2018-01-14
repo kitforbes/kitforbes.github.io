@@ -1,6 +1,7 @@
 ---
 title: "Symlinks"
-categories: Bash
+excerpt: "Create a link to a file on Linux."
+child_collection: bash
 ---
 
 **Soft-Link to File**

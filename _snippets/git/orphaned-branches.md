@@ -1,6 +1,7 @@
 ---
 title: "Orphaned Branches"
-categories: Git
+excerpt: "Forget about the past with an orphaned branch."
+child_collection: git
 ---
 
 An orphaned branch is a branch which does not share the same history as that of

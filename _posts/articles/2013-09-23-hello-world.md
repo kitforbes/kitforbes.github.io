@@ -1,10 +1,9 @@
 ---
 title: "Hello World"
+excerpt: "As a developer, the standard introduction seemed appropriate."
 categories:
   - articles
 ---
-
-As I am a programmer the standard introduction seemed appropriate.
 
 Welcome to my little corner of cyberspace where I will be adding to the endless ocean that is, the internet.
 
