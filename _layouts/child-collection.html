@@ -23,13 +23,11 @@ layout: default
     {%- endunless -%}
     {{- content -}}
     {%- capture collection_title -%}{{- page.title | downcase -}}{%- endcapture -%}
-    {%- for child_collection in site.data.collections[collection_title] -%}
-    <h2 id="{{- child_collection | slugify -}}" class="archive__subtitle"><a href="{{- child_collection | slugify | prepend: site.baseurl -}}">{{- child_collection | capitalize -}}</a></h2>
+    <h2 id="collection" class="archive__subtitle">Pages</h2>
     {%- for post in site.snippets -%}
-      {%- if post.child_collection == child_collection -%}
+      {%- if post.child_collection == collection_title -%}
         {%- include archive-single.html -%}
       {%- endif -%}
-    {%- endfor -%}
     {%- endfor -%}
   </div>
 </div>

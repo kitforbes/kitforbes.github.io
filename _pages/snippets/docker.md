@@ -1,4 +1,5 @@
 ---
+layout: child-collection
 title: "Docker"
 permalink: /snippets/docker/
 author_profile: false

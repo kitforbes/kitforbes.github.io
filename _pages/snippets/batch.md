@@ -1,4 +1,5 @@
 ---
+layout: child-collection
 title: "Batch"
 permalink: /snippets/batch/
 author_profile: false

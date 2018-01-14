@@ -1,4 +1,5 @@
 ---
+layout: child-collection
 title: "PowerShell"
 permalink: /snippets/powershell/
 author_profile: false
