@@ -198,9 +198,9 @@ compress_html:
 
 # Collections
 collections:
-  # portfolio:
-  #   output               : true
-  #   permalink            : /:collection/:path/
+  snippets:
+    output               : true
+    permalink            : /:collection/:path/
 
 # Defaults
 defaults:
@@ -221,11 +221,13 @@ defaults:
     values:
       layout             : single
       author_profile     : true
-  # _portfolio
-  # - scope:
-  #     path               : ''
-  #     type               : portfolio
-  #   values:
-  #     layout             : single
-  #     author_profile     : false
-  #     share              : true
+  # _snippets
+  - scope:
+      path               : ''
+      type               : snippets
+    values:
+      layout             : single
+      author_profile     : false
+      share              : false
+      sidebar:
+        nav              : snippets

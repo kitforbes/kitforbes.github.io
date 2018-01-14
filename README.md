@@ -4,7 +4,8 @@
 This site uses the [Minimal Mistakes][theme] created by Michael Rose.
 
 ## Usage
-This site can not be tested locally when using Docker, which the `site.bat` file depends upon. This is due to the use of the `absolute_url` Liquid filter within the theme that will serve files on `0.0.0.0` rather than `127.0.0.1`. I will look into fixing this at some point.
+Run `site up` to deploy the site locally with Docker Compose.
+You can then bring the site down with `site down`.
 
 <!-- References -->
 [site]: https://kitforbes.github.io
