@@ -1,6 +1,6 @@
 # Site Settings
 remote_theme             : mmistakes/minimal-mistakes
-minimal_mistakes_skin    : dark
+minimal_mistakes_skin    : air # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 locale                   : en_GB
 title                    : "Error Driven Development"
 title_separator          : "-"
