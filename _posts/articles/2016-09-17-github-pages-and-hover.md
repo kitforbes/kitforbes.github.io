@@ -3,6 +3,9 @@ title: "GitHub Pages and Hover"
 excerpt: "Setting up Hover to work with a GitHub Pages blog with a few simple adjustments."
 categories:
   - articles
+tags:
+  - github-pages
+  - hover
 ---
 
 One of the tasks for migrating from Blogger to GitHub Pages was to reconfigure the DNS

@@ -3,6 +3,9 @@ title: "Getting Started with Vagrant and Ansible"
 excerpt: "Using Vagrant to create an Ansible control node on Windows."
 categories:
   - articles
+tags:
+  - ansible
+  - vagrant
 ---
 
 Over the past year, I've been working a lot with [Packer][1] and [Terrafrom][2] from HashiCorp. Terraform is a tool for managing your infrastructure as code and Packer is a tool for building Virtual Machines (VMs) and Containers in a consistent manner. I'll write about my experiences with these in the future. Creating Linux images with Packer is very straight forward; Windows is a lot more involved. Once the connection between Packer and the instance has been established with WinRM (which is the first hurdle), you then need to install and configure everything you need. This can be done with Batch files, PowerShell, PowerShell DSC (Desired State Configuration), or a configuration management tool. I started out with PowerShell, but quickly decided to go ahead and try using a configuration management tool instead.

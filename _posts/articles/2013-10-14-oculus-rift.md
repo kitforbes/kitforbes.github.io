@@ -3,6 +3,8 @@ title: "Hands on with the Oculus Rift"
 excerpt: "My first experience with the Oculus Rift VR headset with the IGDA in Edinburgh."
 categories:
   - articles
+tags:
+  - oculus-rift
 ---
 
 The other evening, at the [IGDA][1] (International Game Developers Association) meeting in the TechCube,

@@ -3,6 +3,11 @@ title: "Jekyll Themes Using `absolute_url` on Docker"
 excerpt: "Using Docker for Windows to serve a Jekyll site has a few issues that you need to be careful of to correctly link assets."
 categories:
   - articles
+tags:
+  - docker
+  - github-pages
+  - jekyll
+  - windows
 ---
 
 ## The Problem
