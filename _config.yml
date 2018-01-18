@@ -113,6 +113,7 @@ exclude:
   - Gemfile.lock
   - README.md
   - site.bat
+  - site.ps1
   - vendor
 keep_files:
   - .git

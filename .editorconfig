@@ -11,6 +11,8 @@ insert_final_newline = true
 [*.md]
 trim_trailing_whitespace = false
 
+[*.ps1]
+indent_size = 4
+
 [*.{bat,cmd}]
-indent_style = space
 indent_size = 4
