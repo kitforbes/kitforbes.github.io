@@ -14,7 +14,7 @@ tags:
 While working on adding the [Minimal Mistakes][3] theme to my blog, I was unable to serve the content of my Jekyll site locally through Docker. From looking at the source of the theme files, it looked like it was the `absolute_url` filter that was causing the issue. I confirmed this by overwriting one of the layout files and changing the URLs to use `prepend: base_url`.
 
 ## The Fix
-As `absolute_url` would be a commonly used approach, I started looking for a fix that wouldn't involve changing the underlying themes. It took me some time, but I eventually came across a [post by Toby Ho][1] that I highly recommend reading if you want more detail on the context.
+As `absolute_url` would be a commonly used approach, I started looking for a fix that wouldn't involve changing the underlying themes. It took me some time, but I eventually came across a [post by Tony Ho][1] that I highly recommend reading if you want more detail on the context.
 
 My issue was very similar to the one outlined by Tony. For me, this involved a couple of small adjustments to address.
 
@@ -67,7 +67,7 @@ Finally, I updated my `site.bat` file to trigger the `docker-compose` commands r
 ## Conclusion
 As always, working on Windows isn't as straight forward as it seems to be on Linux or Mac, but the fix in this case was quite simple.
 
-With those minor adjustments in place, the Jekyll site is now served on `localhost:4000` with assets being linked correctly. My exact change can by seen in this [commit][2] on GitHub.
+With those minor adjustments in place, the Jekyll site is now served on `localhost:4000` with assets being linked correctly. My exact change can be seen in this [commit][2] on GitHub.
 
 ## References
 * [Jekyll, Docker, Windows, and 0.0.0.0][1]
