@@ -17,17 +17,17 @@ begin {
 process {
     try {
         if ($Option -eq "Up") {
-            & docker-compose up -d
+            & docker-compose.exe up -d
         }
         elseif ($Option -eq "Down") {
-            & docker-compose down
+            & docker-compose.exe down
         }
         elseif ($Option -eq "Logs") {
             if ($Follow) {
                 $args = "-f"
             }
 
-            & docker-compose logs $args
+            & docker-compose.exe logs $args
         }
 
         exit 0
