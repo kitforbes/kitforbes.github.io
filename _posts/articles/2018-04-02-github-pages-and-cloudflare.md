@@ -9,6 +9,9 @@ tags:
   - hover
 ---
 
+**Update:** A month after writing this, GitHub now [supports HTTPS for custom domains](update).
+{: .notice--info}
+
 When I first migrated my blog to GitHub Pages back in 2016, I [wrote a small piece]({% post_url 2016-09-17-github-pages-and-hover %}) on the process for using a custom domain name supplied by [Hover][1]. What I neglected to do, was enable HTTPS.
 
 HTTPS is enabled by default on a GitHub Pages site, but not if you have a custom domain name attached. This is clearly stated on the Settings page of your GitHub repository. I missed this, or chose to ignore it.
@@ -68,6 +71,7 @@ Cloudflare makes it very easy to secure a GitHub Pages site with a custom domain
 <!-- References -->
 [1]: https://www.hover.com/ "Hover.com"
 [2]: https://www.cloudflare.com/ "Cloudflare.com"
+[update]: https://blog.github.com/2018-05-01-github-pages-custom-domains-https/ "Custom domains on GitHub Pages gain support for HTTPS"
 
 <!-- Images -->
 [cloudflare-nameservers]: /assets/images/articles/cloudflare-nameservers.png "Nameserver Changes Suggested by Cloudflare"
