@@ -1,5 +1,5 @@
 # Site Settings
-remote_theme             : mmistakes/minimal-mistakes
+remote_theme             : mmistakes/minimal-mistakes@4.15.2
 minimal_mistakes_skin    : air # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 locale                   : en_GB
 title                    : "Error Driven Development"
@@ -160,6 +160,7 @@ timezone                 : GB
 plugins:
   - jekyll-feed
   - jekyll-gist
+  - jekyll-include-cache
   - jekyll-paginate
   - jekyll-remote-theme
   - jekyll-sitemap
@@ -169,6 +170,7 @@ plugins:
 whitelist:
   - jekyll-feed
   - jekyll-gist
+  - jekyll-include-cache
   - jekyll-paginate
   - jekyll-remote-theme
   - jekyll-sitemap

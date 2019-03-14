@@ -1,7 +1,7 @@
 [CmdletBinding()]
 param (
     [Parameter(Mandatory = $true, Position = 1)]
-    [ValidateSet("Up", "Down", "Logs")]
+    [ValidateSet("Up", "Down", "Logs", "Start")]
     [String]
     $Option,
     [Parameter(Mandatory = $false)]
@@ -28,6 +28,9 @@ process {
             }
 
             & docker-compose.exe logs $args
+        }
+        elseif ($Option -eq "Start") {
+            & Start-Process -FilePath "http://localhost:4000"
         }
 
         exit 0
