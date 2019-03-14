@@ -32,10 +32,10 @@ I'll go in to more detail on those topics at another time, however.
 For now, I need to get back to ignoring the crying child in front of me.
 
 <!-- References -->
-[1]: http://g2g3.com/ "G2G3"
-[2]: http://www.cloudsoft.io/ "Cloudsoft"
+[1]: https://g2g3.com/ "G2G3"
+[2]: https://www.cloudsoft.io/ "Cloudsoft"
 [3]: https://www.docker.com/ "Docker"
-[4]: http://www.oinkhogroast.co.uk/ "Oink"
+[4]: https://www.oinkhogroast.co.uk/ "Oink"
 
 <!-- Images -->
 [over-north-america]: /assets/images/articles/over-north-america.jpg "Somewhere over North America"

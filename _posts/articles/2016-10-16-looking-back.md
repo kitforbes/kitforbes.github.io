@@ -101,15 +101,15 @@ I didn't get to do as much "proper" development as I would have liked, but at le
 me a good understanding of areas that I probably would not have learned about otherwise.
 
 <!-- References -->
-[1]:  http://g2g3.com/ "G2G3"
+[1]:  https://g2g3.com/ "G2G3"
 [2]:  https://www.pluralsight.com/ "Pluralsight"
-[3]:  http://www.specflow.org/ "SpecFlow"
-[4]:  http://docs.seleniumhq.org/ "Selenium"
+[3]:  https://www.specflow.org/ "SpecFlow"
+[4]:  https://docs.seleniumhq.org/ "Selenium"
 [5]:  https://cucumber.io/ "Cucumber"
 [6]:  https://github.com/cucumber/gherkin "Gherkin"
-[7]:  http://appium.io/ "Appium"
-[8]:  http://www.cloudsoft.io/ "Cloudsoft"
+[7]:  https://appium.io/ "Appium"
+[8]:  https://www.cloudsoft.io/ "Cloudsoft"
 [9]:  https://jenkins.io/ "Jenkins"
 [10]: https://www.jetbrains.com/teamcity/ "TeamCity"
-[11]: http://fsharp.github.io/FAKE/ "Fake"
+[11]: https://fsharp.github.io/FAKE/ "Fake"
 [12]: https://octopus.com/ "Octopus Deploy"
