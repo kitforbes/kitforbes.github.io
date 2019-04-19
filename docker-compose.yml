@@ -9,7 +9,7 @@ services:
       jekyll serve \
         --watch \
         --force_polling \
-        --config  _config.yml,_config.docker.yml
+        --config _config.yml,_config.docker.yml
     image: jekyll/jekyll
     volumes:
       - .:/srv/jekyll

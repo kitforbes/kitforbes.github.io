@@ -38,7 +38,7 @@ snippets:
         url: /snippets/git/generate-private-key/
       - title: "Orphaned Branches"
         url: /snippets/git/orphaned-branches/
-  - title: "Powershell"
+  - title: "PowerShell"
     children:
       - title: "Safely Recreate Directory"
         url: /snippets/powershell/safely-recreate-directory/

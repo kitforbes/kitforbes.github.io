@@ -38,8 +38,8 @@ Idempotent playbooks for installing Consul, Packer, Terraform, Vault, and Nomad.
 * Docker container for Ansible and Packer, to create AWS AMIs without installing the binaries.
 * Docker container for GitHub Pages/Jekyll, to easily develop a Jekyll site locally.
 
-### Poershell Modules
-Modules created through dotsourced Powershell functions as well as through C# assemblies.
+### PowerShell Modules
+Modules created through dotsourced PowerShell functions as well as through C# assemblies.
 
 ### Vagrant
 * Numerous Vagrantfiles for different development and hosting environments.

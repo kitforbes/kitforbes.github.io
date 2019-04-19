@@ -50,7 +50,7 @@ It may take a day for the certificate to actually show on your site. This is men
 
 ## Rewriting HTTP Traffic
 
-For safety, we want to enable automatic HTTPS reqriting to capture any lingering mixed content.
+For safety, we want to enable automatic HTTPS rewriting to capture any lingering mixed content.
 
 1. Go to the **Crypto** section
 1. Scroll down to the **Automatic HTTPS Rewrites** option
