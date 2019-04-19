@@ -71,7 +71,7 @@ social:
 analytics:
   provider               : google-universal
   google:
-    tracking_id          : UA-50156284-3
+    tracking_id          :
 
 # Site Author
 author:
