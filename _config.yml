@@ -4,7 +4,7 @@ minimal_mistakes_skin    : air # "air", "aqua", "contrast", "dark", "dirt", "neo
 locale                   : en_GB
 title                    : "Error Driven Development"
 title_separator          : "-"
-name                     : Christopher Forbes
+name                     : Chris Forbes
 description              : ''
 url                      : https://chris-forbes.com
 baseurl                  : ''
@@ -75,7 +75,7 @@ analytics:
 
 # Site Author
 author:
-  name                   : 'Christopher Forbes'
+  name                   : 'Chris Forbes'
   avatar                 : # '/assets/images/bio-photo.jpg'
   bio                    : ''
   location               : 'Scotland'
