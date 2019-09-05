@@ -6,7 +6,7 @@ title                    : "Error Driven Development"
 title_separator          : "-"
 name                     : Chris Forbes
 description              : ''
-url                      : https://chris-forbes.com
+url                      : https://www.chrisforbes.dev
 baseurl                  : ''
 repository               : kitforbes/kitforbes.github.io
 teaser                   : # path of fallback teaser image, e.g. '/assets/images/500x300.png'
