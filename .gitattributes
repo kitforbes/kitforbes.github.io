@@ -1,1 +1,4 @@
 *           text=auto
+
+*.ps1       eol=lf
+*.sh        eol=lf
