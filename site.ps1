@@ -17,6 +17,7 @@ begin {
 process {
     try {
         if ($Option -eq "Up") {
+            Remove-Item -Path "$PSScriptRoot/Gemfile.lock"
             & docker-compose.exe up -d
         }
         elseif ($Option -eq "Down") {
