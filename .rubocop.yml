@@ -1,0 +1,4 @@
+AllCops:
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+  UseCache: false
