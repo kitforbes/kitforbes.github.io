@@ -2,5 +2,9 @@
 {
   "files.associations": {
     "*.html": "liquid"
+  },
+  "markdownlint.config": {
+    "default": true,
+    "MD036": false
   }
 }

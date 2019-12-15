@@ -34,8 +34,8 @@ To change the nameservers, I just logged in to my account on Hover and accessed 
 1. Scroll down to **Nameservers** in the left-hand panel
 1. Click **Edit**
 1. Update the nameservers:
-  * `ns1.hover.com` to `kai.ns.cloudflare.com`
-  * `ns2.hover.com` to `kay.ns.cloudflare.com`
+    * `ns1.hover.com` to `kai.ns.cloudflare.com`
+    * `ns2.hover.com` to `kay.ns.cloudflare.com`
 1. Click **save nameservers**
 
 ## Enforcing HTTPS

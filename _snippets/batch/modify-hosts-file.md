@@ -4,7 +4,7 @@ excerpt: "Add an entry to the Windows hosts file with a Batch file."
 child_collection: batch
 ---
 
-TODO: This needs to be made more rhobust.
+TODO: This needs to be made more robust.
 
 ```batch
 set DOMAIN=something.example.com

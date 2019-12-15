@@ -13,7 +13,7 @@ the following:
 # Checkout the commit which requires a tag.
 git checkout [sha]
 
-# Set GIT_COMMITTER_DATE to the date of the commit and create the tag. 
+# Set GIT_COMMITTER_DATE to the date of the commit and create the tag.
 GIT_COMMITTER_DATE="$(git show --format=%aD | head -1)" \
   git tag -a [tag] -m [tag]
 
