@@ -6,6 +6,7 @@ future                   : true
 incremental              : true
 profile                  : true
 safe                     : true
+github                   : [metadata]
 
 # Analytics
 analytics:

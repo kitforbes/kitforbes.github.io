@@ -13,6 +13,7 @@ services:
     image: jekyll/jekyll
     volumes:
       - .:/srv/jekyll
+      - /srv/jekyll/vendor/
       - ./vendor/bundle:/usr/local/bundle
     ports:
       - 4000:4000
