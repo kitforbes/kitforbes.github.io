@@ -16,22 +16,27 @@ begin {
 
 process {
     try {
-        if ($Option -eq "Up") {
-            Remove-Item -Path "$PSScriptRoot/Gemfile.lock"
-            & docker-compose.exe up -d
-        }
-        elseif ($Option -eq "Down") {
-            & docker-compose.exe down
-        }
-        elseif ($Option -eq "Logs") {
-            if ($Follow) {
-                $args = "-f"
+        switch ($Option) {
+            "Up" {
+                Remove-Item -Path "$PSScriptRoot/Gemfile.lock"
+                & docker-compose.exe up -d
             }
+            "Down" {
+                & docker-compose.exe down
+            }
+            "Logs" {
+                if ($Follow) {
+                    $args = "-f"
+                }
 
-            & docker-compose.exe logs $args
-        }
-        elseif ($Option -eq "Start") {
-            & Start-Process -FilePath "http://localhost:4000"
+                & docker-compose.exe logs $args
+            }
+            "Start" {
+                & Start-Process -FilePath "http://localhost:4000"
+            }
+            Default {
+                throw "Unexpected option: $Option"
+            }
         }
 
         exit 0
