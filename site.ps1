@@ -18,7 +18,10 @@ process {
     try {
         switch ($Option) {
             "Up" {
-                Remove-Item -Path "$PSScriptRoot/Gemfile.lock"
+                if (Test-Path -Path "$PSScriptRoot/Gemfile.lock") {
+                    Remove-Item -Path "$PSScriptRoot/Gemfile.lock"
+                }
+
                 & docker-compose.exe up -d
             }
             "Down" {
