@@ -37,6 +37,19 @@ be used when in a sub-directory of a particular path.
   path = ~/.gitconfig.work
 ```
 
+On Windows it's slightly different and we use `gitdir/i` (case insensitive)
+to also make it work with Visual Studio Code.
+
+```ini
+# ~/.gitconfig
+[user]
+  email = chris@mydomain.com
+  name = Chris Forbes
+
+[includeIf "gitdir/i:C:/dev/work/"]
+  path = ~/.gitconfig.work
+```
+
 The included file contains any settings that need to be overridden.
 
 ```ini
