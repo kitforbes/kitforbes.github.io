@@ -2,7 +2,7 @@
 source 'https://rubygems.org'
 
 group :jekyll_plugins do
-  gem 'github-pages', '208'
+  gem 'github-pages', '209'
   gem 'jekyll-include-cache'
   gem 'jekyll-remote-theme'
 end
